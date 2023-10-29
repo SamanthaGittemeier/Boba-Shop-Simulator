@@ -35,7 +35,6 @@ public class Orders : MonoBehaviour
     [SerializeField]
     private int _addinsChoice;
 
-    // Start is called before the first frame update
     void Start()
     {
         _sizeText = gameObject.transform.GetChild(0).GetComponent<TMP_Text>();
@@ -48,7 +47,6 @@ public class Orders : MonoBehaviour
         StartCoroutine(CreateOrder());
     }
 
-    // Update is called once per frame
     void Update()
     {
         
